@@ -32,7 +32,7 @@ const nomes = objetos.map((element) => {
   return novoObjeto;
 });
 
-// console.log(nomes);
+console.log(nomes);
 
 const nomesFiltrados = nomes.filter((element) => {
   if (element.idade > 17) {
