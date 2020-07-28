@@ -1,0 +1,9 @@
+// Compara os valores e pega o maior deles utilizando reduce.
+
+const valor = [5, 7, 8, 20, 10, 15];
+
+let result = valor.reduce((a, b) => {
+  return Math.max(a, b);
+});
+
+console.log(result);
