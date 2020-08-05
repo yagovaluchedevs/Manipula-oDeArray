@@ -1,0 +1,10 @@
+let number = [3, 4, 5, 6, 8, 9, 10, 15];
+let total = 0;
+
+function somar(element, indice, array) {
+  total += element;
+  array[indice] = total;
+}
+
+number.forEach(somar);
+console.log(number);
